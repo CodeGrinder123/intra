@@ -113,7 +113,6 @@ export default{
 
 </script>
 <style>
-/* Form styles */
 .form-container {
   gap: 20px;
   max-width: 550px;

@@ -8,22 +8,8 @@
 
 <script>
 export default {
-    // props: ['page'],
     data() {
         return {
-            // form_counter: this.page,
-            // myArrComponent: [
-            //     { path: '/start', name: 'start', value: true },
-            //     { path: '/one', name: 'one', value: true },
-            //     { path: '/two', name: 'two', value: true },
-            //     { path: '/three', name: 'three', value: true },
-            //     { path: '/four', name: 'four', value: true },
-            //     { path: '/five', name: 'five', value: true },
-            //     { path: '/six', name: 'six', value: true },
-            //     { path: '/seven', name: 'seven', value: true },
-            //     { path: '/eight', name: 'eight', value: true },
-            //     { path: '/nine', name: 'nine', value: true },
-            // ],
         };
     },
     methods: {

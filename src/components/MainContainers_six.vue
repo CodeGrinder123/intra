@@ -150,10 +150,10 @@ export default{
 }
 
 .image-container img {
-  width: 50px; /* Set the desired width */
-  height: 50px; /* Set the desired height */
-  object-fit: cover; /* Maintain aspect ratio and crop if needed */
-  margin: 10px; /* Optional margin for spacing between images */
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 10px;
   cursor: pointer;
 }
 
@@ -251,10 +251,10 @@ export default{
     }
 
     .image-container img {
-        width: 25px; /* Set the desired width */
-        height: 25px; /* Set the desired height */
-        object-fit: cover; /* Maintain aspect ratio and crop if needed */
-        margin: 5px; /* Optional margin for spacing between images */
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        margin: 5px;
     }
 
 }

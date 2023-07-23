@@ -34,7 +34,6 @@
             <div class="column-right" style="background-color: white;">
                 <!-- Question counter -->
                 <div class="button-arrangement">
-                    <NextBtn @click="btn_prev"/>
                     <p class="text-question">Question 2 out of 7</p>
                 </div>
 
@@ -95,14 +94,6 @@ export default{
             this.form_counter++;
             console.log(this.form_counter);
         },
-
-        btn_prev(){
-            // try{
-            //     this.$router.push({name: 'one'});
-            // } catch {
-            //     console.log("Navigation failed");
-            // }
-        }
     }
 }
 </script>

@@ -101,12 +101,10 @@ input[type="date"] {
   background-color: #fff;
 }
 
-/* Add custom style to the selected date */
 input[type="date"]::-webkit-datetime-edit {
   color: #444;
 }
 
-/* Add focus style to the date picker input */
 input[type="date"]:focus {
   outline: none;
   border-color: #007bff;

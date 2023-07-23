@@ -190,7 +190,6 @@ export default{
   border-radius: 3px;
 }
 
-/* Style the checkboxes when checked */
 .checkbox:checked {
   background-color: #007bff;
   border-color: #007bff;

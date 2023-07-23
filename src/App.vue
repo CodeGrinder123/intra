@@ -107,8 +107,6 @@ export default {
 <style>
 body{
     background-color: #f3f3f3;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     margin: 0px;
 }
@@ -125,7 +123,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* max-width: 800px; */
     margin: 0 auto;
     text-align: left;
 }
@@ -359,10 +356,6 @@ select{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-/* 
-*{
-    box-sizing: border-box;
-} */
 
 .row > * {
     box-sizing: border-box;
@@ -387,7 +380,7 @@ select{
     float: left;
     width: 100%;
     padding: 10px;
-    height: 350px; /* Should be removed. Only for demonstration */
+    height: 350px;
     border-radius: 10px 0 0 10px ;
 }
 
@@ -395,7 +388,7 @@ select{
     float: left;
     width: 100%;
     padding: 10px;
-    height: 350px; /* Should be removed. Only for demonstration */
+    height: 350px;
     border-radius: 0 10px 10px 0;
 }
 
@@ -431,8 +424,6 @@ select{
     margin-right: 85px;
     margin-bottom: 5px;
     margin-top: 5px;
-    /* align-items: center; */
-    /* margin: 5px; */
 }
 
 .dot-active{
@@ -446,7 +437,6 @@ select{
     margin-right: 85px;
     margin-bottom: 5px;
     margin-top: 5px;
-    /* align-items: center; */
 }
 
 .dot-container{
@@ -533,14 +523,14 @@ select{
     }
 
     .row {
-        flex-direction: column; /* Change to column layout on mobile */
+        flex-direction: column;
     }
 
     .column-left{
         float: left;
         width: 100%;
         padding: 10px;
-        height: 350px; /* Should be removed. Only for demonstration */
+        height: 350px;
         border-radius: 10px 10px 0 0;
     }
 
@@ -548,7 +538,7 @@ select{
         float: left;
         width: 100%;
         padding: 10px;
-        height: 350px; /* Should be removed. Only for demonstration */
+        height: 350px;
         border-radius: 0 0 10px 10px;
     }
 
@@ -633,14 +623,14 @@ select{
     }
 
     .row {
-        flex-direction: column; /* Change to column layout on mobile */
+        flex-direction: column;
     }
 
     .column-left{
         float: left;
         width: 100%;
         padding: 10px;
-        height: 350px; /* Should be removed. Only for demonstration */
+        height: 350px;
         border-radius: 10px 10px 0 0;
     }
 
@@ -648,7 +638,7 @@ select{
         float: left;
         width: 100%;
         padding: 10px;
-        height: 350px; /* Should be removed. Only for demonstration */
+        height: 350px;
         border-radius: 0 0 10px 10px;
     }
 
@@ -727,14 +717,14 @@ select{
     }
 
     .row {
-        flex-direction: column; /* Change to column layout on mobile */
+        flex-direction: column;
     }
 
     .column-left{
         float: left;
         width: 100%;
         padding: 10px;
-        height: 350px; /* Should be removed. Only for demonstration */
+        height: 350px;
         border-radius: 10px 10px 0 0;
     }
 
@@ -742,7 +732,7 @@ select{
         float: left;
         width: 100%;
         padding: 10px;
-        height: 350px; /* Should be removed. Only for demonstration */
+        height: 350px;
         border-radius: 0 0 10px 10px;
     }
 

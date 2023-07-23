@@ -170,10 +170,9 @@ select{
   cursor: pointer;
 }
 
-/* Custom radio button style when checked */
 .list-container input[type="radio"]:checked {
-  border-color: #F0584E; /* Change the color when the radio button is checked */
-  background-color: #F0584E; /* Change the background color when the radio button is checked */
+  border-color: #F0584E;
+  background-color: #F0584E;
 }
 
 @media (max-width: 786px){
